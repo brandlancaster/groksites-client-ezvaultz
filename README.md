@@ -1,6 +1,6 @@
 # EZVaultz — sample website (groksites.com)
 
-Static, mobile-first multi-page sample for **EZVaultz** (also written **EZ Vaults**), a planned door-to-door storage service: rugged, weather-sealed, lockable crates delivered to the customer, locked by the customer, then stored in a low-key secure facility. First location planned for Kearny Mesa / central San Diego.
+Static, mobile-first multi-page sample for **EZVaultz** (also written **EZ Vaultz**), a planned door-to-door storage service: rugged, weather-sealed, lockable vault crates delivered to the customer, locked by the customer, then stored in a low-key secure facility. First location planned for Kearny Mesa / central San Diego.
 
 Plain HTML/CSS/JS. No build step. **Demo only** — every page is `noindex`. Content and pricing are placeholders.
 
@@ -9,8 +9,8 @@ Plain HTML/CSS/JS. No build step. **Demo only** — every page is `noindex`. Con
 | File | Purpose |
 | --- | --- |
 | `index.html` | Home — hero, 4-step process, benefits, CTAs |
-| `how-it-works.html` | What is EZ Vaults — crates, door-to-door process, security model |
-| `pricing.html` | Sample rates, what’s included, scheduling placeholder, Reserve a Crate form |
+| `how-it-works.html` | What is EZ Vaultz — vault crates, door-to-door process, security model |
+| `pricing.html` | Sample rates, what’s included, scheduling placeholder, Reserve a Vault Crate form |
 | `service-area.html` | Kearny Mesa / central San Diego radius (TBD), ZIP check placeholder |
 | `faq.html` | Accordion FAQ (`details`/`summary`) |
 | `facility.html` | Nondescript facility, viewing room, address withheld |
@@ -18,7 +18,7 @@ Plain HTML/CSS/JS. No build step. **Demo only** — every page is `noindex`. Con
 | `styles.css` | Shared styles; theme colors are CSS variables in `:root` |
 | `script.js` | Mobile menu, sample form, sample ZIP check |
 | `favicon.svg` | Padlock-in-square mark |
-| `images/` | Client-provided crate photos (optimized WebP) |
+| `images/` | Client-provided vault crate photos (optimized WebP) |
 
 Preview locally:
 
@@ -42,14 +42,14 @@ Then open http://127.0.0.1:8961/
 
 **ZIP / coverage check.** `#zip-check` on `service-area.html` always shows a sample message. Replace it with a real radius or ZIP list when the service area is set.
 
-**Crate photos and icons.** The Home hero uses the client-provided closed-trunk photo (`images/trunk-closed.webp`). The What is EZ Vaults page uses the open-trunk photo (`images/trunk-open.webp`) beside the crate description. UI icons remain inline SVGs. These photos show the crate style under consideration; they do not claim a specific brand or published specification. Source originals are kept locally in `images/src/` and are not deployed.
+**Vault crate photos and icons.** The Home hero uses the client-provided closed-trunk photo (`images/trunk-closed.webp`). The What is EZ Vaultz page uses the open-trunk photo (`images/trunk-open.webp`) beside the vault crate description. UI icons remain inline SVGs. These photos show the vault crate style under consideration; they do not claim a specific brand or published specification. Source originals are kept locally in `images/src/` and are not deployed.
 
 ## TBC — still to confirm
 
 - [ ] Monthly storage rate and per-trip deploy fee, per market
-- [ ] Whether initial empty-crate delivery and locked-crate pickup are included or billed as deploys
+- [ ] Whether initial empty vault crate delivery and locked vault crate pickup are included or billed as deploys
 - [ ] Drive-time radius around Kearny Mesa / central San Diego
-- [ ] Crate dimensions, capacity, materials, lock type, and any weather-seal rating
+- [ ] Vault crate dimensions, capacity, materials, lock type, and any weather-seal rating
 - [ ] Insurance / coverage options, and how they interact with a customer’s homeowner or renter policy
 - [ ] Published prohibited-items list (typical examples are already sketched in the FAQ)
 - [ ] Contact email, phone, and legal business name (hello@ezvaultz.com is a placeholder)
@@ -57,7 +57,7 @@ Then open http://127.0.0.1:8961/
 - [ ] Scheduling / ordering tool (Calendly or other)
 - [ ] Customer agreement: closeout/cancel terms, minimum term, billing cycle, emergency/legal access exceptions
 - [ ] Facility address (withheld by design until booking), viewing hours, monitoring details
-- [x] Client-provided crate photos (closed and open trunk) — used on Home and What is EZ Vaults
+- [x] Client-provided vault crate photos (closed and open trunk) — used on Home and What is EZ Vaultz
 - [ ] Logo and any additional approved photography
 
 ## Deploy notes
