@@ -18,6 +18,7 @@ Plain HTML/CSS/JS. No build step. **Demo only** — every page is `noindex`. Con
 | `styles.css` | Shared styles; theme colors are CSS variables in `:root` |
 | `script.js` | Mobile menu, sample form, sample ZIP check |
 | `favicon.svg` | Padlock-in-square mark |
+| `images/` | Client-provided crate photos (optimized WebP) |
 
 Preview locally:
 
@@ -41,7 +42,7 @@ Then open http://127.0.0.1:8961/
 
 **ZIP / coverage check.** `#zip-check` on `service-area.html` always shows a sample message. Replace it with a real radius or ZIP list when the service area is set.
 
-**Crate illustration and icons.** Inline SVGs in the HTML (hero trunk, UI icons). No photographs are used.
+**Crate photos and icons.** The Home hero uses the client-provided closed-trunk photo (`images/trunk-closed.webp`). The What is EZ Vaults page uses the open-trunk photo (`images/trunk-open.webp`) beside the crate description. UI icons remain inline SVGs. These photos show the crate style under consideration; they do not claim a specific brand or published specification. Source originals are kept locally in `images/src/` and are not deployed.
 
 ## TBC — still to confirm
 
@@ -56,7 +57,8 @@ Then open http://127.0.0.1:8961/
 - [ ] Scheduling / ordering tool (Calendly or other)
 - [ ] Customer agreement: closeout/cancel terms, minimum term, billing cycle, emergency/legal access exceptions
 - [ ] Facility address (withheld by design until booking), viewing hours, monitoring details
-- [ ] Logo and any approved photography
+- [x] Client-provided crate photos (closed and open trunk) — used on Home and What is EZ Vaults
+- [ ] Logo and any additional approved photography
 
 ## Deploy notes
 

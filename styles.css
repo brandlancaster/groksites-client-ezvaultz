@@ -247,9 +247,39 @@ p:last-child { margin-bottom: 0; }
 
 .hero-art {
   justify-self: center;
-  width: min(100%, 420px);
+  width: min(100%, 440px);
 }
-.hero-art svg { width: 100%; height: auto; }
+
+.photo-card {
+  margin: 0;
+  width: 100%;
+  overflow: hidden;
+  border-radius: var(--radius);
+  border: 1px solid var(--line-strong);
+  box-shadow: var(--shadow);
+  background: var(--bg-card);
+}
+
+.photo-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Light frame so the closed-trunk product shot (white background)
+   sits cleanly on the dark navy theme instead of looking pasted on. */
+.photo-card--light {
+  background: linear-gradient(180deg, #f7f8fb 0%, #e8edf4 100%);
+  border-color: rgba(200, 208, 219, 0.55);
+  padding: 14px 16px 18px;
+  box-shadow:
+    0 0 0 1px rgba(200, 208, 219, 0.18),
+    var(--shadow);
+}
+
+.photo-card--light img {
+  border-radius: 8px;
+}
 
 .page-hero h1 { margin-bottom: 0.4em; }
 .page-hero .lead { margin-bottom: 0; }
